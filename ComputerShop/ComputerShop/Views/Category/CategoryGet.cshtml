@@ -1,0 +1,19 @@
+@model ComputerShop.Data.Models.Category
+@{
+    ViewData["Title"] = "CategoryGet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("CategoryUpdate","Category",FormMethod.Post))
+{
+    <h3>Category ID</h3>
+    @Html.TextBoxFor(x=>x.CategoryID, new {@class="form form-control"})
+     <br/>
+     <h3>Category Name</h3>
+     @Html.TextBoxFor(x=>x.CategoryName, new {@class="form form-control"})
+     @Html.ValidationMessageFor(x=>x.CategoryName,"",new {@style="color:red"})
+     <br/>
+     <h3>Category Description</h3>
+     @Html.TextAreaFor(x=>x.CategoryDescription, new {@class="form form-control"})
+     <br/>
+     <button class="btn btn-success">Update</button>
+}

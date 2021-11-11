@@ -1,0 +1,16 @@
+@model ComputerShop.Data.Models.Category
+@{
+    ViewData["Title"] = "CategoryAdd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("CategoryAdd","Category",FormMethod.Post))
+{
+     <h3>Category Name</h3>
+     @Html.TextBoxFor(x=>x.CategoryName, new {@class="form form-control"})
+     @Html.ValidationMessageFor(x=>x.CategoryName,"",new {@style="color:red"})
+     <br/>
+     <h3>Category Description</h3>
+     @Html.TextAreaFor(x=>x.CategoryDescription, new {@class="form form-control"})
+     <br/>
+     <button class="btn btn-success">Cattegory Add</button>
+}

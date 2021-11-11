@@ -1,0 +1,27 @@
+@model ComputerShop.Data.Models.Computer
+@{
+    ViewData["Title"] = "ComputerAdd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("ComputerAdd","Computer",FormMethod.Post))
+{
+     <h3>Computer Name</h3>
+     @Html.TextBoxFor(x=>x.Name, new {@class="form form-control"})
+     <br/>
+     <h3>Computer Description</h3>
+     @Html.TextAreaFor(x=>x.Description, new {@class="form form-control"})
+     <br/>
+     <h3>Computer Price</h3>
+     @Html.TextBoxFor(x=>x.Price, new {@class="form form-control"})
+     <br/>
+     <h3>Computer Stock</h3>
+     @Html.TextBoxFor(x=>x.Stock, new {@class="form form-control"})
+     <br/>
+     <h3>Computer İmage</h3>
+     @Html.TextBoxFor(x=>x.ImageUrl, new {@class="form form-control"})
+     <br/>
+    <h3>Computer Category</h3>
+     @Html.DropDownListFor(x=>x.CategoryID, (List<SelectListItem>) ViewBag.Vls, new {@class="form form-control"})
+     <br/>
+     <button class="btn btn-success">Computer Add</button>
+}

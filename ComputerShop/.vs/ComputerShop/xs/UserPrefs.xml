@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{A1187FBD-DC3B-40AD-B803-F4D1BB2E9C85}|Default">
+  <MonoDevelop.Ide.ItemProperties.ComputerShop PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComputerShop/Views/Computer/Index.cshtml">
+    <Files>
+      <File FileName="ComputerShop/Controllers/CategoryController.cs" Line="29" Column="14" />
+      <File FileName="ComputerShop/Controllers/ComputerController.cs" Line="1" Column="1" />
+      <File FileName="ComputerShop/Views/Category/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ComputerShop/Views/Computer/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ComputerShop/Program.cs" Line="19" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ComputerShop" expanded="True">
+            <Node name="ComputerShop" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Category" expanded="True" />
+                <Node name="Computer" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
