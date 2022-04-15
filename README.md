@@ -3,7 +3,7 @@
  
 Not: Tamamen Dinamik şekilde çalışmaktadır.
 
-
+Deleted wwwroot directory because it's not my design
 
 https://user-images.githubusercontent.com/84273839/141285612-4ce5f0d5-2b9e-4b72-90a3-43283c129d03.mp4
 
